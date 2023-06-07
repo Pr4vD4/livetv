@@ -1,0 +1,170 @@
+@import url("fonts.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #141414;
+}
+
+.container {
+    width: 1170px;
+}
+
+.w30 {
+    width: 430px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-rev {
+    flex-direction: column-reverse;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+    height: 100px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 16px;
+    margin: 0 10px;
+    font-family: "Golos-Text_Regular";
+}
+
+.brand {
+    margin-right: 10px;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 14px;
+    margin: 0 10px;
+    font-family: "Golos-Text_Regular";
+}
+
+.button > * {
+    margin: 0 2px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+    height: 80px;
+    background-color: #1f1f1f;
+}
+
+.texts * {
+    color: #f0f0f0;
+    font-size: 12px;
+    margin-right: 20px;
+    font-family: "Golos-Text_Regular";
+}
+
+.icon {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.big-film-info {
+    height: 600px;
+    background-image: url("../img/1.jpg");
+    border-radius: .5rem;
+}
+
+.big-film-info-container > * {
+    margin: 5px 0;
+}
+
+.big-film-info-container {
+    margin: 5%;
+}
+
+.big-film-info-title {
+    font-family: "Golos-Text_Bold";
+    font-size: 50px;
+    color: #f0f0f0;
+}
+
+.rating {
+    font-family: "Golos-Text_DemiBold";
+    color: #f0f0f0;
+}
+
+.data > * {
+    margin: 0 5px;
+}
+
+.data-text {
+    font-family: "Golos-Text_Regular";
+    font-size: 14px;
+    color: #909090;
+}
+
+.age {
+    border: 1px #313131 solid;
+    border-radius: .25rem;
+    padding: 1px 3px;
+
+}
+
+.age * {
+    font-size: 12px;
+}
+
+.big-film-info-about {
+    width: 80%;
+    font-family: "Golos-Text_Regular";
+    color: #f0f0f0;
+}
+
+.button {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-family: "Golos-Text_DemiBold";
+    font-size: 14px;
+    padding: 20px 25px;
+    background: linear-gradient(to right, #0052d4, #6fb0fc);
+    border-radius: .5rem;
+}
