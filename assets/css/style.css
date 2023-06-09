@@ -18,6 +18,7 @@ body {
     width: 100%;
 }
 
+
 .w30 {
     width: 430px;
 }
@@ -76,6 +77,10 @@ body {
 
 .mt5 {
     margin-top: 50px !important;
+}
+
+.mb100 {
+    margin-bottom: 100px;
 }
 
 .bg-gray {
@@ -312,7 +317,83 @@ main {
     width: 320px;
     height: 160px;
 }
+
 .image-card img {
     object-fit: cover;
     border-radius: .3rem;
+}
+
+.livetv-about {
+
+    font-family: "Golos-Text_Bold";
+    font-size: 30px;
+    color: #f0f0f0;
+}
+
+.livetv-color-text {
+    font-family: "Golos-Text_Bold";
+    font-size: 40px;
+    background: linear-gradient(to right, #0052d4, #6fb0fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtext {
+    font-family: "Golos-Text_Regular";
+    color: #f0f0f0;
+}
+
+.livetv {
+    width: 570px;
+}
+
+.livetv .big-film-info-about {
+    width: 100%;
+}
+
+.livetv-color-texts {
+    width: 90%;
+}
+
+.subscribe-text {
+    width: 570px;
+}
+
+.subscribe-form {
+    width: 470px;
+}
+
+.subscribe-price {
+    width: 570px;
+}
+
+.subscribe-form label {
+    font-family: "Golos-Text_Regular";
+    color: #f0f0f0;
+}
+
+.subscribe-form input[type=text] {
+    height: 50px;
+    padding: 10px 20px;
+    background: none;
+    border: #565656 solid 1px;
+    color: #f0f0f0;
+    outline: none;
+    transition: .1s;
+
+}
+
+.subscribe-form input[type=text]:focus {
+    transition: .1s;
+    transform: scale(1.05);
+}
+
+.radio-group {
+    margin-right: 15px;
+}
+
+.subscribe-form input[type=radio] {
+    accent-color: #f0f0f0;
+    margin-right: 5px;
+    transform: scale(1.1);
 }
