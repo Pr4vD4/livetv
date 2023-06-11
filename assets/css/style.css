@@ -397,3 +397,123 @@ main {
     margin-right: 5px;
     transform: scale(1.1);
 }
+
+.subscribe-prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, rgba(0, 82, 212, .2), rgba(111, 176, 252, .2)
+    );
+    margin-bottom: 50px;
+    padding: 8px;
+    height: 150px;
+    width: 250px;
+    border-radius: .3rem;
+}
+
+.subscribe-prices > .livetv-color-text {
+    text-align: center;
+    -webkit-text-fill-color: #6fb0fc;
+}
+
+@media (max-width: 480px) {
+    .container {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0 5px;
+        width: 100%;
+    }
+
+    .big-film-info {
+        background-position: center;
+    }
+
+    .suggestions {
+        justify-content: center;
+    }
+
+    .suggestion-tittle {
+        text-align: center;
+    }
+
+    .suggestion {
+        margin-top: 50px;
+        width: 400px;
+    }
+
+    .suggestion-image {
+        height: 400px;
+
+    }
+
+    .big-film-info-2 {
+        background-position: center;
+    }
+
+    .weekly-film-main {
+        flex-wrap: wrap;
+    }
+
+    .weekly-film-main-img img {
+        width: 100%;
+    }
+
+    .big-film-info-buttons {
+        justify-content: center;
+    }
+
+
+    .image-card {
+        margin-top: 0 !important;
+    }
+
+    .livetv-color-texts {
+        align-self: center;
+    }
+
+    .livetv-img img {
+        width: 100%;
+    }
+
+    .weekly-film-description {
+        flex-wrap: wrap;
+    }
+
+
+    .image-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-card img {
+        width: 100%;
+        border-radius: 0.5rem;
+    }
+
+    .subscribe-text {
+        width: 100%;
+    }
+
+    .big-film-info-title {
+        text-align: center;
+    }
+
+    .subscribe {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .subscribe-price {
+        margin-top: 50px;
+    }
+
+    .subscribe-price {
+        width: 100%;
+    }
+
+    .subscribe-prices {
+        width: 225px;
+    }
+
+}
